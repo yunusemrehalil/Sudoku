@@ -16,28 +16,31 @@
         android:background="@drawable/ic_baseline_numbers_24"
         >
     </View>
+
     <androidx.appcompat.widget.LinearLayoutCompat
     android:id="@+id/layout_1"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintTop_toBottomOf="@id/main_image"
     android:layout_width="wrap_content"
-    android:layout_height="75dp"
+    android:layout_height="108dp"
     android:gravity="center"
     >
-    <com.google.android.material.card.MaterialCardView
+        <com.google.android.material.card.MaterialCardView
         android:id="@+id/mate_1"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
+        android:layout_width="108dp"
+        android:layout_height="108dp"
         app:strokeColor="@color/black"
         app:strokeWidth="1dp"
         app:cardCornerRadius="6dp"
         android:elevation="6dp"
         >
         <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="top|start">
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="top|start"
+            app:strokeColor="@color/black"
+            app:strokeWidth="1dp">
             <TextView
                 android:layout_gravity="center"
                 android:layout_width="wrap_content"
@@ -45,8 +48,10 @@
                 android:text="1" />
         </com.google.android.material.card.MaterialCardView>
         <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            app:strokeWidth="1dp"
+            app:strokeColor="@color/black"
             android:layout_gravity="top|center">
             <TextView
                 android:layout_gravity="center"
@@ -55,8 +60,10 @@
                 android:text="2" />
         </com.google.android.material.card.MaterialCardView>
         <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            app:strokeWidth="1dp"
+            app:strokeColor="@color/black"
             android:layout_gravity="top|end">
             <TextView
                 android:layout_gravity="center"
@@ -65,8 +72,10 @@
                 android:text="3" />
         </com.google.android.material.card.MaterialCardView>
         <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            app:strokeColor="@color/black"
+            app:strokeWidth="1dp"
             android:layout_gravity="start|center">
             <TextView
                 android:layout_gravity="center"
@@ -75,8 +84,10 @@
                 android:text="4" />
         </com.google.android.material.card.MaterialCardView>
         <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            app:strokeWidth="1dp"
+            app:strokeColor="@color/black"
             android:layout_gravity="center">
             <TextView
                 android:layout_gravity="center"
@@ -85,8 +96,10 @@
                 android:text="5" />
         </com.google.android.material.card.MaterialCardView>
         <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            app:strokeColor="@color/black"
+            app:strokeWidth="1dp"
             android:layout_gravity="end|center">
             <TextView
                 android:layout_gravity="center"
@@ -95,8 +108,10 @@
                 android:text="6" />
         </com.google.android.material.card.MaterialCardView>
         <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            app:strokeWidth="1dp"
+            app:strokeColor="@color/black"
             android:layout_gravity="start|bottom">
             <TextView
                 android:layout_gravity="center"
@@ -105,8 +120,10 @@
                 android:text="7" />
         </com.google.android.material.card.MaterialCardView>
         <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            app:strokeColor="@color/black"
+            app:strokeWidth="1dp"
             android:layout_gravity="bottom|center">
             <TextView
                 android:layout_gravity="center"
@@ -115,8 +132,10 @@
                 android:text="8" />
         </com.google.android.material.card.MaterialCardView>
         <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            app:strokeColor="@color/black"
+            app:strokeWidth="1dp"
             android:layout_gravity="bottom|end">
             <TextView
                 android:layout_gravity="center"
@@ -126,555 +145,21 @@
         </com.google.android.material.card.MaterialCardView>
 
     </com.google.android.material.card.MaterialCardView>
-    <com.google.android.material.card.MaterialCardView
-        android:id="@+id/mate_2"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        app:strokeColor="@color/black"
-        app:strokeWidth="1dp"
-        app:cardCornerRadius="6dp"
-        android:elevation="6dp"
-        >
         <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="top|start">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="1" />
-        </com.google.android.material.card.MaterialCardView>
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="top|center">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="2" />
-        </com.google.android.material.card.MaterialCardView>
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="top|end">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="3" />
-        </com.google.android.material.card.MaterialCardView>
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="start|center">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="4" />
-        </com.google.android.material.card.MaterialCardView>
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="center">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="5" />
-        </com.google.android.material.card.MaterialCardView>
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="end|center">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="6" />
-        </com.google.android.material.card.MaterialCardView>
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="start|bottom">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="7" />
-        </com.google.android.material.card.MaterialCardView>
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="bottom|center">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="8" />
-        </com.google.android.material.card.MaterialCardView>
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="bottom|end">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="9" />
-        </com.google.android.material.card.MaterialCardView>
-
-    </com.google.android.material.card.MaterialCardView>
-    <com.google.android.material.card.MaterialCardView
-        android:id="@+id/mate_3"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        app:strokeColor="@color/black"
-        app:strokeWidth="1dp"
-        app:cardCornerRadius="6dp"
-        android:elevation="6dp"
-        >
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="top|start">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="1" />
-        </com.google.android.material.card.MaterialCardView>
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="top|center">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="2" />
-        </com.google.android.material.card.MaterialCardView>
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="top|end">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="3" />
-        </com.google.android.material.card.MaterialCardView>
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="start|center">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="4" />
-        </com.google.android.material.card.MaterialCardView>
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="center">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="5" />
-        </com.google.android.material.card.MaterialCardView>
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="end|center">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="6" />
-        </com.google.android.material.card.MaterialCardView>
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="start|bottom">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="7" />
-        </com.google.android.material.card.MaterialCardView>
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="bottom|center">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="8" />
-        </com.google.android.material.card.MaterialCardView>
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="bottom|end">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="9" />
-        </com.google.android.material.card.MaterialCardView>
-
-    </com.google.android.material.card.MaterialCardView>
-
-</androidx.appcompat.widget.LinearLayoutCompat>
-    <androidx.appcompat.widget.LinearLayoutCompat
-    android:id="@+id/layout_2"
-    android:layout_width="wrap_content"
-    android:layout_height="75dp"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintTop_toBottomOf="@id/layout_1"
-    android:gravity="center">
-
-    <com.google.android.material.card.MaterialCardView
-        android:id="@+id/mate_4"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/layout_1"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        app:strokeColor="@color/black"
-        app:strokeWidth="1dp"
-        app:cardCornerRadius="6dp"
-        android:elevation="6dp"
-        >
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="top|start">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="1" />
-        </com.google.android.material.card.MaterialCardView>
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="top|center">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="2" />
-        </com.google.android.material.card.MaterialCardView>
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="top|end">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="3" />
-        </com.google.android.material.card.MaterialCardView>
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="start|center">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="4" />
-        </com.google.android.material.card.MaterialCardView>
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="center">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="5" />
-        </com.google.android.material.card.MaterialCardView>
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="end|center">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="6" />
-        </com.google.android.material.card.MaterialCardView>
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="start|bottom">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="7" />
-        </com.google.android.material.card.MaterialCardView>
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="bottom|center">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="8" />
-        </com.google.android.material.card.MaterialCardView>
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="bottom|end">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="9" />
-        </com.google.android.material.card.MaterialCardView>
-
-    </com.google.android.material.card.MaterialCardView>
-    <com.google.android.material.card.MaterialCardView
-        android:id="@+id/mate_5"
-        app:layout_constraintStart_toEndOf="@id/mate_4"
-        app:layout_constraintTop_toBottomOf="@id/layout_1"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        app:strokeColor="@color/black"
-        app:strokeWidth="1dp"
-        app:cardCornerRadius="6dp"
-        android:elevation="6dp"
-        >
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="top|start">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="1" />
-        </com.google.android.material.card.MaterialCardView>
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="top|center">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="2" />
-        </com.google.android.material.card.MaterialCardView>
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="top|end">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="3" />
-        </com.google.android.material.card.MaterialCardView>
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="start|center">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="4" />
-        </com.google.android.material.card.MaterialCardView>
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="center">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="5" />
-        </com.google.android.material.card.MaterialCardView>
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="end|center">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="6" />
-        </com.google.android.material.card.MaterialCardView>
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="start|bottom">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="7" />
-        </com.google.android.material.card.MaterialCardView>
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="bottom|center">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="8" />
-        </com.google.android.material.card.MaterialCardView>
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="bottom|end">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="9" />
-        </com.google.android.material.card.MaterialCardView>
-
-    </com.google.android.material.card.MaterialCardView>
-    <com.google.android.material.card.MaterialCardView
-        android:id="@+id/mate_6"
-        app:layout_constraintStart_toEndOf="@id/mate_5"
-        app:layout_constraintTop_toBottomOf="@id/layout_1"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        app:strokeColor="@color/black"
-        app:strokeWidth="1dp"
-        app:cardCornerRadius="6dp"
-        android:elevation="6dp"
-        >
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="top|start">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="1" />
-        </com.google.android.material.card.MaterialCardView>
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="top|center">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="2" />
-        </com.google.android.material.card.MaterialCardView>
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="top|end">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="3" />
-        </com.google.android.material.card.MaterialCardView>
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="start|center">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="4" />
-        </com.google.android.material.card.MaterialCardView>
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="center">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="5" />
-        </com.google.android.material.card.MaterialCardView>
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="end|center">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="6" />
-        </com.google.android.material.card.MaterialCardView>
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="start|bottom">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="7" />
-        </com.google.android.material.card.MaterialCardView>
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="bottom|center">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="8" />
-        </com.google.android.material.card.MaterialCardView>
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_gravity="bottom|end">
-            <TextView
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="9" />
-        </com.google.android.material.card.MaterialCardView>
-
-    </com.google.android.material.card.MaterialCardView>
-
-</androidx.appcompat.widget.LinearLayoutCompat>
-    <androidx.appcompat.widget.LinearLayoutCompat
-        android:id="@+id/layout_3"
-        android:layout_width="wrap_content"
-        android:layout_height="75dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/layout_2"
-        android:gravity="center"
-        >
-
-        <com.google.android.material.card.MaterialCardView
-            android:id="@+id/mate_7"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/layout_2"
-            android:layout_width="75dp"
-            android:layout_height="75dp"
+            android:id="@+id/mate_2"
+            android:layout_width="108dp"
+            android:layout_height="108dp"
             app:strokeColor="@color/black"
             app:strokeWidth="1dp"
             app:cardCornerRadius="6dp"
             android:elevation="6dp"
             >
             <com.google.android.material.card.MaterialCardView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
-                android:layout_gravity="top|start">
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_gravity="top|start"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp">
                 <TextView
                     android:layout_gravity="center"
                     android:layout_width="wrap_content"
@@ -682,8 +167,10 @@
                     android:text="1" />
             </com.google.android.material.card.MaterialCardView>
             <com.google.android.material.card.MaterialCardView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="@color/black"
                 android:layout_gravity="top|center">
                 <TextView
                     android:layout_gravity="center"
@@ -692,8 +179,10 @@
                     android:text="2" />
             </com.google.android.material.card.MaterialCardView>
             <com.google.android.material.card.MaterialCardView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="@color/black"
                 android:layout_gravity="top|end">
                 <TextView
                     android:layout_gravity="center"
@@ -702,8 +191,10 @@
                     android:text="3" />
             </com.google.android.material.card.MaterialCardView>
             <com.google.android.material.card.MaterialCardView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp"
                 android:layout_gravity="start|center">
                 <TextView
                     android:layout_gravity="center"
@@ -712,8 +203,10 @@
                     android:text="4" />
             </com.google.android.material.card.MaterialCardView>
             <com.google.android.material.card.MaterialCardView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="@color/black"
                 android:layout_gravity="center">
                 <TextView
                     android:layout_gravity="center"
@@ -722,8 +215,10 @@
                     android:text="5" />
             </com.google.android.material.card.MaterialCardView>
             <com.google.android.material.card.MaterialCardView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp"
                 android:layout_gravity="end|center">
                 <TextView
                     android:layout_gravity="center"
@@ -732,8 +227,10 @@
                     android:text="6" />
             </com.google.android.material.card.MaterialCardView>
             <com.google.android.material.card.MaterialCardView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="@color/black"
                 android:layout_gravity="start|bottom">
                 <TextView
                     android:layout_gravity="center"
@@ -742,8 +239,10 @@
                     android:text="7" />
             </com.google.android.material.card.MaterialCardView>
             <com.google.android.material.card.MaterialCardView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp"
                 android:layout_gravity="bottom|center">
                 <TextView
                     android:layout_gravity="center"
@@ -752,8 +251,627 @@
                     android:text="8" />
             </com.google.android.material.card.MaterialCardView>
             <com.google.android.material.card.MaterialCardView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp"
+                android:layout_gravity="bottom|end">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9" />
+            </com.google.android.material.card.MaterialCardView>
+
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/mate_3"
+            android:layout_width="108dp"
+            android:layout_height="108dp"
+            app:strokeColor="@color/black"
+            app:strokeWidth="1dp"
+            app:cardCornerRadius="6dp"
+            android:elevation="6dp"
+            >
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_gravity="top|start"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1" />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="@color/black"
+                android:layout_gravity="top|center">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2" />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="@color/black"
+                android:layout_gravity="top|end">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3" />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp"
+                android:layout_gravity="start|center">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4" />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="@color/black"
+                android:layout_gravity="center">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5" />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp"
+                android:layout_gravity="end|center">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6" />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="@color/black"
+                android:layout_gravity="start|bottom">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7" />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp"
+                android:layout_gravity="bottom|center">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8" />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp"
+                android:layout_gravity="bottom|end">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9" />
+            </com.google.android.material.card.MaterialCardView>
+
+        </com.google.android.material.card.MaterialCardView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/layout_2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/layout_1"
+        android:layout_width="wrap_content"
+        android:layout_height="108dp"
+        android:gravity="center"
+        >
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/mate_4"
+            android:layout_width="108dp"
+            android:layout_height="108dp"
+            app:strokeColor="@color/black"
+            app:strokeWidth="1dp"
+            app:cardCornerRadius="6dp"
+            android:elevation="6dp"
+            >
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_gravity="top|start"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1" />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="@color/black"
+                android:layout_gravity="top|center">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2" />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="@color/black"
+                android:layout_gravity="top|end">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3" />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp"
+                android:layout_gravity="start|center">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4" />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="@color/black"
+                android:layout_gravity="center">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5" />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp"
+                android:layout_gravity="end|center">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6" />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="@color/black"
+                android:layout_gravity="start|bottom">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7" />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp"
+                android:layout_gravity="bottom|center">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8" />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp"
+                android:layout_gravity="bottom|end">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9" />
+            </com.google.android.material.card.MaterialCardView>
+
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/mate_5"
+            android:layout_width="108dp"
+            android:layout_height="108dp"
+            app:strokeColor="@color/black"
+            app:strokeWidth="1dp"
+            app:cardCornerRadius="6dp"
+            android:elevation="6dp"
+            >
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_gravity="top|start"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1" />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="@color/black"
+                android:layout_gravity="top|center">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2" />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="@color/black"
+                android:layout_gravity="top|end">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3" />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp"
+                android:layout_gravity="start|center">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4" />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="@color/black"
+                android:layout_gravity="center">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5" />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp"
+                android:layout_gravity="end|center">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6" />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="@color/black"
+                android:layout_gravity="start|bottom">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7" />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp"
+                android:layout_gravity="bottom|center">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8" />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp"
+                android:layout_gravity="bottom|end">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9" />
+            </com.google.android.material.card.MaterialCardView>
+
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/mate_6"
+            android:layout_width="108dp"
+            android:layout_height="108dp"
+            app:strokeColor="@color/black"
+            app:strokeWidth="1dp"
+            app:cardCornerRadius="6dp"
+            android:elevation="6dp"
+            >
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_gravity="top|start"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1" />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="@color/black"
+                android:layout_gravity="top|center">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2" />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="@color/black"
+                android:layout_gravity="top|end">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3" />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp"
+                android:layout_gravity="start|center">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4" />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="@color/black"
+                android:layout_gravity="center">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5" />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp"
+                android:layout_gravity="end|center">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6" />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="@color/black"
+                android:layout_gravity="start|bottom">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7" />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp"
+                android:layout_gravity="bottom|center">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8" />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp"
+                android:layout_gravity="bottom|end">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9" />
+            </com.google.android.material.card.MaterialCardView>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/layout_3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/layout_2"
+        android:layout_width="wrap_content"
+        android:layout_height="108dp"
+        android:gravity="center"
+        >
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/mate_7"
+            android:layout_width="108dp"
+            android:layout_height="108dp"
+            app:strokeColor="@color/black"
+            app:strokeWidth="1dp"
+            app:cardCornerRadius="6dp"
+            android:elevation="6dp"
+            >
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_gravity="top|start"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1" />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="@color/black"
+                android:layout_gravity="top|center">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2" />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="@color/black"
+                android:layout_gravity="top|end">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3" />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp"
+                android:layout_gravity="start|center">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4" />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="@color/black"
+                android:layout_gravity="center">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5" />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp"
+                android:layout_gravity="end|center">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6" />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="@color/black"
+                android:layout_gravity="start|bottom">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7" />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp"
+                android:layout_gravity="bottom|center">
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8" />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp"
                 android:layout_gravity="bottom|end">
                 <TextView
                     android:layout_gravity="center"
@@ -765,19 +883,19 @@
         </com.google.android.material.card.MaterialCardView>
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/mate_8"
-            app:layout_constraintStart_toEndOf="@id/mate_7"
-            app:layout_constraintTop_toBottomOf="@id/layout_2"
-            android:layout_width="75dp"
-            android:layout_height="75dp"
+            android:layout_width="108dp"
+            android:layout_height="108dp"
             app:strokeColor="@color/black"
             app:strokeWidth="1dp"
             app:cardCornerRadius="6dp"
             android:elevation="6dp"
             >
             <com.google.android.material.card.MaterialCardView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
-                android:layout_gravity="top|start">
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_gravity="top|start"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp">
                 <TextView
                     android:layout_gravity="center"
                     android:layout_width="wrap_content"
@@ -785,8 +903,10 @@
                     android:text="1" />
             </com.google.android.material.card.MaterialCardView>
             <com.google.android.material.card.MaterialCardView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="@color/black"
                 android:layout_gravity="top|center">
                 <TextView
                     android:layout_gravity="center"
@@ -795,8 +915,10 @@
                     android:text="2" />
             </com.google.android.material.card.MaterialCardView>
             <com.google.android.material.card.MaterialCardView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="@color/black"
                 android:layout_gravity="top|end">
                 <TextView
                     android:layout_gravity="center"
@@ -805,8 +927,10 @@
                     android:text="3" />
             </com.google.android.material.card.MaterialCardView>
             <com.google.android.material.card.MaterialCardView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp"
                 android:layout_gravity="start|center">
                 <TextView
                     android:layout_gravity="center"
@@ -815,8 +939,10 @@
                     android:text="4" />
             </com.google.android.material.card.MaterialCardView>
             <com.google.android.material.card.MaterialCardView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="@color/black"
                 android:layout_gravity="center">
                 <TextView
                     android:layout_gravity="center"
@@ -825,8 +951,10 @@
                     android:text="5" />
             </com.google.android.material.card.MaterialCardView>
             <com.google.android.material.card.MaterialCardView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp"
                 android:layout_gravity="end|center">
                 <TextView
                     android:layout_gravity="center"
@@ -835,8 +963,10 @@
                     android:text="6" />
             </com.google.android.material.card.MaterialCardView>
             <com.google.android.material.card.MaterialCardView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="@color/black"
                 android:layout_gravity="start|bottom">
                 <TextView
                     android:layout_gravity="center"
@@ -845,8 +975,10 @@
                     android:text="7" />
             </com.google.android.material.card.MaterialCardView>
             <com.google.android.material.card.MaterialCardView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp"
                 android:layout_gravity="bottom|center">
                 <TextView
                     android:layout_gravity="center"
@@ -855,8 +987,10 @@
                     android:text="8" />
             </com.google.android.material.card.MaterialCardView>
             <com.google.android.material.card.MaterialCardView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp"
                 android:layout_gravity="bottom|end">
                 <TextView
                     android:layout_gravity="center"
@@ -868,19 +1002,19 @@
         </com.google.android.material.card.MaterialCardView>
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/mate_9"
-            app:layout_constraintStart_toEndOf="@id/mate_8"
-            app:layout_constraintTop_toBottomOf="@id/layout_2"
-            android:layout_width="75dp"
-            android:layout_height="75dp"
+            android:layout_width="108dp"
+            android:layout_height="108dp"
             app:strokeColor="@color/black"
             app:strokeWidth="1dp"
             app:cardCornerRadius="6dp"
             android:elevation="6dp"
             >
             <com.google.android.material.card.MaterialCardView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
-                android:layout_gravity="top|start">
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_gravity="top|start"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp">
                 <TextView
                     android:layout_gravity="center"
                     android:layout_width="wrap_content"
@@ -888,8 +1022,10 @@
                     android:text="1" />
             </com.google.android.material.card.MaterialCardView>
             <com.google.android.material.card.MaterialCardView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="@color/black"
                 android:layout_gravity="top|center">
                 <TextView
                     android:layout_gravity="center"
@@ -898,8 +1034,10 @@
                     android:text="2" />
             </com.google.android.material.card.MaterialCardView>
             <com.google.android.material.card.MaterialCardView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="@color/black"
                 android:layout_gravity="top|end">
                 <TextView
                     android:layout_gravity="center"
@@ -908,8 +1046,10 @@
                     android:text="3" />
             </com.google.android.material.card.MaterialCardView>
             <com.google.android.material.card.MaterialCardView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp"
                 android:layout_gravity="start|center">
                 <TextView
                     android:layout_gravity="center"
@@ -918,8 +1058,10 @@
                     android:text="4" />
             </com.google.android.material.card.MaterialCardView>
             <com.google.android.material.card.MaterialCardView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="@color/black"
                 android:layout_gravity="center">
                 <TextView
                     android:layout_gravity="center"
@@ -928,8 +1070,10 @@
                     android:text="5" />
             </com.google.android.material.card.MaterialCardView>
             <com.google.android.material.card.MaterialCardView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp"
                 android:layout_gravity="end|center">
                 <TextView
                     android:layout_gravity="center"
@@ -938,8 +1082,10 @@
                     android:text="6" />
             </com.google.android.material.card.MaterialCardView>
             <com.google.android.material.card.MaterialCardView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="@color/black"
                 android:layout_gravity="start|bottom">
                 <TextView
                     android:layout_gravity="center"
@@ -948,8 +1094,10 @@
                     android:text="7" />
             </com.google.android.material.card.MaterialCardView>
             <com.google.android.material.card.MaterialCardView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp"
                 android:layout_gravity="bottom|center">
                 <TextView
                     android:layout_gravity="center"
@@ -958,8 +1106,10 @@
                     android:text="8" />
             </com.google.android.material.card.MaterialCardView>
             <com.google.android.material.card.MaterialCardView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp"
                 android:layout_gravity="bottom|end">
                 <TextView
                     android:layout_gravity="center"
@@ -972,16 +1122,20 @@
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 
-    <androidx.appcompat.widget.LinearLayoutCompat
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/layout_3"
         android:layout_width="wrap_content"
-        android:layout_height="75dp"
-        android:layout_marginTop="8dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="32dp"
         android:gravity="center">
 
         <com.google.android.material.card.MaterialCardView
+            android:id="@+id/click_1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
             android:layout_width="42dp"
             android:layout_height="42dp"
             app:strokeWidth="1dp"
@@ -994,7 +1148,27 @@
                 >
             </TextView>
         </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/count_1"
+                app:layout_constraintEnd_toEndOf="@id/click_1"
+                app:layout_constraintStart_toStartOf="@id/click_1"
+                app:layout_constraintTop_toBottomOf="@id/click_1"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="@color/black">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9"
+                android:layout_gravity="center"
+                >
+            </TextView>
+        </com.google.android.material.card.MaterialCardView>
         <com.google.android.material.card.MaterialCardView
+            app:layout_constraintStart_toEndOf="@id/click_1"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/click_2"
             android:layout_width="42dp"
             android:layout_height="42dp"
             app:strokeWidth="1dp"
@@ -1007,7 +1181,27 @@
                 >
             </TextView>
         </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+            android:id="@+id/count_2"
+                app:layout_constraintEnd_toEndOf="@id/click_2"
+                app:layout_constraintStart_toStartOf="@id/click_2"
+                app:layout_constraintTop_toBottomOf="@id/click_2"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            app:strokeWidth="1dp"
+            app:strokeColor="@color/black">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9"
+                android:layout_gravity="center"
+                >
+            </TextView>
+        </com.google.android.material.card.MaterialCardView>
         <com.google.android.material.card.MaterialCardView
+            app:layout_constraintStart_toEndOf="@id/click_2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/click_3"
             android:layout_width="42dp"
             android:layout_height="42dp"
             app:strokeWidth="1dp"
@@ -1020,7 +1214,27 @@
                 >
             </TextView>
         </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+            android:id="@+id/count_3"
+                app:layout_constraintEnd_toEndOf="@id/click_3"
+                app:layout_constraintStart_toStartOf="@id/click_3"
+                app:layout_constraintTop_toBottomOf="@id/click_3"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            app:strokeWidth="1dp"
+            app:strokeColor="@color/black">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9"
+                android:layout_gravity="center"
+                >
+            </TextView>
+        </com.google.android.material.card.MaterialCardView>
         <com.google.android.material.card.MaterialCardView
+            app:layout_constraintStart_toEndOf="@id/click_3"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/click_4"
             android:layout_width="42dp"
             android:layout_height="42dp"
             app:strokeWidth="1dp"
@@ -1033,7 +1247,27 @@
                 >
             </TextView>
         </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+            android:id="@+id/count_4"
+            app:layout_constraintEnd_toEndOf="@id/click_4"
+            app:layout_constraintStart_toStartOf="@id/click_4"
+            app:layout_constraintTop_toBottomOf="@id/click_4"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            app:strokeWidth="1dp"
+            app:strokeColor="@color/black">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9"
+                android:layout_gravity="center"
+                >
+            </TextView>
+        </com.google.android.material.card.MaterialCardView>
         <com.google.android.material.card.MaterialCardView
+            app:layout_constraintStart_toEndOf="@id/click_4"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/click_5"
             android:layout_width="42dp"
             android:layout_height="42dp"
             app:strokeWidth="1dp"
@@ -1046,7 +1280,27 @@
                 >
             </TextView>
         </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+            android:id="@+id/count_5"
+            app:layout_constraintEnd_toEndOf="@id/click_5"
+            app:layout_constraintStart_toStartOf="@id/click_5"
+            app:layout_constraintTop_toBottomOf="@id/click_5"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            app:strokeWidth="1dp"
+            app:strokeColor="@color/black">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9"
+                android:layout_gravity="center"
+                >
+            </TextView>
+        </com.google.android.material.card.MaterialCardView>
         <com.google.android.material.card.MaterialCardView
+            app:layout_constraintStart_toEndOf="@id/click_5"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/click_6"
             android:layout_width="42dp"
             android:layout_height="42dp"
             app:strokeWidth="1dp"
@@ -1059,7 +1313,27 @@
                 >
             </TextView>
         </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+            android:id="@+id/count_6"
+            app:layout_constraintEnd_toEndOf="@id/click_6"
+            app:layout_constraintStart_toStartOf="@id/click_6"
+            app:layout_constraintTop_toBottomOf="@id/click_6"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            app:strokeWidth="1dp"
+            app:strokeColor="@color/black">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9"
+                android:layout_gravity="center"
+                >
+            </TextView>
+        </com.google.android.material.card.MaterialCardView>
         <com.google.android.material.card.MaterialCardView
+            app:layout_constraintStart_toEndOf="@id/click_6"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/click_7"
             android:layout_width="42dp"
             android:layout_height="42dp"
             app:strokeWidth="1dp"
@@ -1072,7 +1346,27 @@
                 >
             </TextView>
         </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+            android:id="@+id/count_7"
+            app:layout_constraintEnd_toEndOf="@id/click_7"
+            app:layout_constraintStart_toStartOf="@id/click_7"
+            app:layout_constraintTop_toBottomOf="@id/click_7"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            app:strokeWidth="1dp"
+            app:strokeColor="@color/black">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9"
+                android:layout_gravity="center"
+                >
+            </TextView>
+        </com.google.android.material.card.MaterialCardView>
         <com.google.android.material.card.MaterialCardView
+            app:layout_constraintStart_toEndOf="@id/click_7"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/click_8"
             android:layout_width="42dp"
             android:layout_height="42dp"
             app:strokeWidth="1dp"
@@ -1085,7 +1379,27 @@
                 >
             </TextView>
         </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+            android:id="@+id/count_8"
+            app:layout_constraintEnd_toEndOf="@id/click_8"
+            app:layout_constraintStart_toStartOf="@id/click_8"
+            app:layout_constraintTop_toBottomOf="@id/click_8"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            app:strokeWidth="1dp"
+            app:strokeColor="@color/black">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9"
+                android:layout_gravity="center"
+                >
+            </TextView>
+        </com.google.android.material.card.MaterialCardView>
         <com.google.android.material.card.MaterialCardView
+            app:layout_constraintStart_toEndOf="@id/click_8"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/click_9"
             android:layout_width="42dp"
             android:layout_height="42dp"
             app:strokeWidth="1dp"
@@ -1098,9 +1412,25 @@
                 >
             </TextView>
         </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+            android:id="@+id/count_9"
+            app:layout_constraintEnd_toEndOf="@id/click_9"
+            app:layout_constraintStart_toStartOf="@id/click_9"
+            app:layout_constraintTop_toBottomOf="@id/click_9"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            app:strokeWidth="1dp"
+            app:strokeColor="@color/black">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9"
+                android:layout_gravity="center"
+                >
+            </TextView>
+        </com.google.android.material.card.MaterialCardView>
 
-    </androidx.appcompat.widget.LinearLayoutCompat>
-
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 
 
